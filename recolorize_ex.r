@@ -61,32 +61,8 @@ for (i in rc_list)
 }
 
 
-# recolorize class
-
-attributes(final_fit)
-#> $names
-#> [1] "original_img"      "pixel_assignments" "sizes"            
-#> [4] "centers"           "call"              "recolored_img"    
-#> 
-#> $class
-#> [1] "recolorize"
-
-
-final_fit$call
-#> [[1]]
-#> recolorize(img = img, method = "hist", bins = 2, color_space = "sRGB")
-#> 
-#> [[2]]
-#> recluster(recolorize_obj = init_fit, cutoff = 45)
-#> 
-#> [[3]]
-#> editLayer(recolorize_obj = refined_fit, layer_idx = 3, operation = "fill", 
-#>     px_size = 4)
-
-
 # type = raster gets you a raster (like original_img); 
 # type = array gets you an image array;
-
 recolored_img <- recoloredImage(final_fit, type = "array")
 par(mar = rep(0, 4))
 plotImageArray(recolored_img)
