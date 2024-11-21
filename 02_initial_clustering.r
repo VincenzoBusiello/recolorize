@@ -35,3 +35,21 @@ plotColorClusters(recolorize_k$centers, recolorize_k$sizes, scaling = 30,
                   xlab = "red", ylab = "green", zlab = "blue", 
                   main = "k-means clustering", 
                   xlim = 0:1, ylim = 0:1, zlim = 0:1)
+
+# Il metodo k-means può essere scomodo alcune volte perché non deterministico. 
+# Seguirà un esempio in cui verranno fornite tre palette con gli stessi 10 colori. 
+# Questi si presenteranno in posizioni diverse all'interno della palette. 
+# I colori saranno così simili ma non uguali. 
+
+k_list <- lapply(1:3, function(i) recolorize(corbetti, "k", n = 10, plotting = F))
+
+layout(1:3)
+par(mar = rep(1,4))
+plotColorPalette(k_list[[1]]$centers, k_list[[1]]$sizes)
+plotColorPalette(k_list[[2]]$centers, k_list[[2]]$sizes)
+plotColorPalette(k_list[[3]]$centers, k_list[[3]]$sizes)
+
+
+# il metodo hist permette di dedicare dei bin di numero diverso per ogni canale di colore
+
+
