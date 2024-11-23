@@ -50,6 +50,26 @@ plotColorPalette(k_list[[2]]$centers, k_list[[2]]$sizes)
 plotColorPalette(k_list[[3]]$centers, k_list[[3]]$sizes)
 
 
-# il metodo hist permette di dedicare dei bin di numero diverso per ogni canale di colore
+# Il metodo hist permette di dedicare dei bin di numero diverso per ogni canale di colore
+
+                 
+# Aumentando il numero di cluster aumenta anche la suddivisione dei colori
+
+r_hist_2 <- recolorize(corbetti, method = "hist", color_space = "Lab", bins = 2)
+                 
+# L'argomento bins della funzione recolorize() permette di impostare bins diversi 
+# per ogni canale trattandoli come vettori.
+
+r_hist_322 <- recolorize(corbetti, method = "hist", bins = c(3,2,2))
 
 
+# Si possono impostare colori diversi rispetto a quelli presenti nell'immagine
+# imposeColors() è una funzione utile in questo caso. Ottenendo i colori da una prima immagine
+# si possono poi mappare su altre immagini 
+
+im1 <- system.file("extdata/ocellata.png", package = "recolorize")
+im2 <- system.file("extdata/ephippigera.png", package = "recolorize")
+
+fit1 <- recolorize(im1)
+
+fit2 <- imposeColors(im2, fit1$centers, adjust_centers = FALSE)
