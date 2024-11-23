@@ -9,6 +9,7 @@ img <- readImage(img_path, resize = NULL, rotate = NULL)
 # l'immagine viene interpretata come un array di lunghezza 4
 dim(img)
 
+# impostazione della finestra di visualizzazione
 layout(matrix(1:5, nrow = 1))
 
 # l'argomento mar serve per poter impostare dei margini. 
