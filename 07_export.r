@@ -21,10 +21,3 @@ for (i in 1:length(layers))
   {
   png::writePNG(layers[[i]], target = paste0("layer_", i, ".png"))
   }
-
-
-# pavo package
-as_classify <- classify_recolorize(rc, imgname = "corbetti")
-adj_analysis <- pavo::adjacent(as_classify, xscale = 10)
-
-adj_human <- recolorize_adjacency(rc)
