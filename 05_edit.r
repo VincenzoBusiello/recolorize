@@ -16,5 +16,3 @@ merge_fit <- mergeLayers(rc,
                                           c(3,5),
                                           c(4,7),
                                           c(6,8)))
-  
-# confronto delle due versioni della stessa immagine calcolando la distanza tra 
