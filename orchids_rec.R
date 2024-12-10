@@ -25,3 +25,69 @@ final_milt <- editLayer(ref_milt, 3, operation = "fill", px_size = 4)
 final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro impostato a 2 per mancanza di layer
 
 
+
+## splitByColor() di cattleya
+
+    catt_rc <- recolorize2(catt, cutoff = 45, plotting = FALSE) # esegue recolorize() e recluster() in modo consecutivo
+
+# impostazione della schermata di visualizzazione
+    layout(matrix(1:6, nrow = 2, byrow = TRUE))
+    par(mar = c(0,0,2,0))
+
+    lay_catt <- splitByColor(catt_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer 
+
+    for (i in 1:length(lay_catt))
+      {
+          plotImageArray(lay_catt[[i]], main = i)
+      }
+
+
+
+## splitByColor() di cymbidium
+
+    cymb_rc <- recolorize2(cymb, cutoff = 45, plotting = FALSE) # esegue recolorize() e recluster() in modo consecutivo
+
+# impostazione della schermata di visualizzazione
+    layout(matrix(1:4, nrow = 2, byrow = TRUE))
+    par(mar = c(0,0,2,0))
+
+    lay_cymb <- splitByColor(cymb_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer
+
+    for (i in 1:length(lay_cymb))
+      {
+          plotImageArray(lay_cymb[[i]], main = i)
+      }
+
+
+
+## splitByColor() di miltoniopsis
+
+    milt_rc <- recolorize2(milt, cutoff = 45, plotting = FALSE) # esegue recolorize() e recluster() in modo consecutivo
+
+# impostazione della schermata di visualizzazione
+    layout(matrix(1:6, nrow = 2, byrow = TRUE))
+    par(mar = c(0,0,2,0))
+
+    lay_milt <- splitByColor(milt_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer
+
+    for (i in 1:length(lay_milt))
+      {
+          plotImageArray(lay_milt[[i]], main = i)
+      }
+
+
+
+## splitByColor() di restrepia
+
+    rest_rc <- recolorize2(rest, cutoff = 45, plotting = FALSE) # esegue recolorize() e recluster() in modo consecutivo
+
+# impostazione della schermata di visualizzazione
+    layout(matrix(1:4, nrow = 2, byrow = TRUE))
+    par(mar = c(0,0,2,0))
+
+    lay_rest <- splitByColor(rest_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer
+
+    for (i in 1:length(lay_rest))
+      {
+          plotImageArray(lay_rest[[i]], main = i)
+      }
