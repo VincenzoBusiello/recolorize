@@ -41,6 +41,8 @@ final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro
           plotImageArray(lay_catt[[i]], main = i)
       }
 
+### esportazione dei livelli di colore
+
     recolorize_to_png(catt_rc, filename = "catt_recolored.png") # crea un file .png dell'immagine ricolorata
 
         for (i in 1:length(lay_catt)) # salva i singoli layer binari in formato .png
@@ -66,6 +68,8 @@ final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro
               plotImageArray(lay_cymb[[i]], main = i)
           }
 
+### esportazione dei livelli di colore
+
     recolorize_to_png(cymb_rc, filename = "cymb_recolored.png") # crea un file .png dell'immagine ricolorata
 
         for (i in 1:length(lay_cymb)) # salva i singoli layer binari in formato .png
@@ -89,6 +93,7 @@ final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro
           plotImageArray(lay_milt[[i]], main = i)
       }
 
+### esportazione dei livelli di colore
 
     recolorize_to_png(milt_rc, filename = "milt_recolored.png") # crea un file .png dell'immagine ricolorata
 
@@ -113,6 +118,8 @@ final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro
       {
           plotImageArray(lay_rest[[i]], main = i)
       }
+
+### esportazione dei livelli di colore
 
     recolorize_to_png(rest_rc, filename = "rest_recolored.png") # crea un file .png dell'immagine ricolorata
 
