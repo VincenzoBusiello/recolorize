@@ -53,7 +53,7 @@ s4_rc <- recolorize2(s4, cutoff = 10, plotting = FALSE)
 
 
           ##S2##
-  layout(matrix(1:8, nrow = 2, byrow = TRUE))
+  layout(matrix(1:6, nrow = 2, byrow = TRUE))
   par(mar = c(0,0,2,0))
 
   lay_s2 <- splitByColor(s2_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer che vengono confrontati con gli speculari binari
