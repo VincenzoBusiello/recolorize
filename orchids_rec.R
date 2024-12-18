@@ -41,6 +41,14 @@ final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro
           plotImageArray(lay_catt[[i]], main = i)
       }
 
+    recolorize_to_png(catt_rc, filename = "catt_recolored.png") # crea un file .png dell'immagine ricolorata
+
+        for (i in 1:length(lay_catt)) # salva i singoli layer binari in formato .png
+          {
+              png::writePNG(lay_catt[[i]], target = paste0("cattlayer_", i, ".png"))
+          }
+
+
 
 
 ## splitByColor() di cymbidium
@@ -53,11 +61,17 @@ final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro
 
     lay_cymb <- splitByColor(cymb_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer
 
-    for (i in 1:length(lay_cymb))
-      {
-          plotImageArray(lay_cymb[[i]], main = i)
-      }
+        for (i in 1:length(lay_cymb))
+          {
+              plotImageArray(lay_cymb[[i]], main = i)
+          }
 
+    recolorize_to_png(cymb_rc, filename = "cymb_recolored.png") # crea un file .png dell'immagine ricolorata
+
+        for (i in 1:length(lay_cymb)) # salva i singoli layer binari in formato .png
+          {
+              png::writePNG(lay_cymb[[i]], target = paste0("cymblayer_", i, ".png"))
+          }
 
 
 ## splitByColor() di miltoniopsis
@@ -76,6 +90,14 @@ final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro
       }
 
 
+    recolorize_to_png(milt_rc, filename = "milt_recolored.png") # crea un file .png dell'immagine ricolorata
+
+        for (i in 1:length(lay_milt)) # salva i singoli layer binari in formato .png
+          {
+              png::writePNG(lay_milt[[i]], target = paste0("miltlayer_", i, ".png"))
+          }
+
+
 
 ## splitByColor() di restrepia
 
@@ -91,3 +113,11 @@ final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro
       {
           plotImageArray(lay_rest[[i]], main = i)
       }
+
+    recolorize_to_png(rest_rc, filename = "rest_recolored.png") # crea un file .png dell'immagine ricolorata
+
+        for (i in 1:length(lay_rest)) # salva i singoli layer binari in formato .png
+          {
+              png::writePNG(lay_rest[[i]], target = paste0("restlayer_", i, ".png"))
+          }
+
