@@ -6,10 +6,10 @@ di procedure manuali, semi-automatiche e automatiche.
 
 L'obiettivo di tale file è mostrare come le funzioni contenute in questo pacchetto possano
 essere utilizzate anche con "soggetti" differenti rispetto a quelli utilizzati negli esempi 
-proposti da H. Weller dimostrando la loro versatilità. 
+proposti da H. Weller, accentuando la versatilità del pacchetto. 
 Per questo motivo sono stati scelti 4 esempi provenienti dalla famiglia delle Orchidacee 
 e dai generi *Cattleya*, *Cymbidium*, *Miltoniopsis* e *Restrepia*. 
-
+![cattleya](https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true)
 
 E' stato testato anche nell'ambito del Telerilevamento applicando le sue funzioni alle immagini satellitari. 
 In questo caso sono state utilizzate delle immagini acquisite attraverso Sentinel-2 e riguardanti
