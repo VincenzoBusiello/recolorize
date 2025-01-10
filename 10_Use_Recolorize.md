@@ -17,10 +17,18 @@ e dai generi *Cattleya*, *Cymbidium*, *Miltoniopsis* e *Restrepia*.
 ![Restrepia](https://github.com/VincenzoBusiello/recolorize/blob/main/restrepia.png?raw=true)
 
 
-E' stato testato anche nell'ambito del Telerilevamento applicando le sue funzioni alle immagini satellitari. 
+E' stato testato anche nell'ambito del Telerilevamento, applicando le sue funzioni alle immagini satellitari. 
 In questo caso sono state utilizzate delle immagini acquisite attraverso Sentinel-2 e riguardanti
-il Serengeti National Park, più precisamente un quadrante di 197,72 KM^2 vicino al 
-Kagatende Ranger Park. Sono state scelte delle immagini che potessero mostrare i livelli di copertura 
+il Serengeti National Park(Tanzania), più precisamente un quadrante di 197,72 KM^2 vicino al 
+Kagatende Ranger Park. 
+
+![gennaio20](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_02012020.png?raw=true)
+![settembre20](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_18092020.png?raw=true)
+![febbraio21](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_15022021.png?raw=true)
+![agosto21](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_24082021.png?raw=true)
+
+
+Sono state scelte delle immagini che potessero mostrare i livelli di copertura 
 vegetale (assente/presente) in modo tale da avere delle differenze di colori che potessero 
 essere significative e adatte all'obiettivo del lavoro. 
 Per poterle processare le immagini sono state caricate all'interno del folder del pacchetto per evitare 
