@@ -9,7 +9,13 @@ essere utilizzate anche con "soggetti" differenti rispetto a quelli utilizzati n
 proposti da H. Weller, accentuando la versatilità del pacchetto. 
 Per questo motivo sono stati scelti 4 esempi provenienti dalla famiglia delle Orchidacee 
 e dai generi *Cattleya*, *Cymbidium*, *Miltoniopsis* e *Restrepia*. 
-![cattleya](https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true)
+
+
+![Cattleya](https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true)
+![Cymbidium](https://github.com/VincenzoBusiello/recolorize/blob/main/cymbidium.png?raw=true)
+![Miltoniopsis](https://github.com/VincenzoBusiello/recolorize/blob/main/miltoniopsis.png?raw=true)
+![Restrepia](https://github.com/VincenzoBusiello/recolorize/blob/main/restrepia.png?raw=true)
+
 
 E' stato testato anche nell'ambito del Telerilevamento applicando le sue funzioni alle immagini satellitari. 
 In questo caso sono state utilizzate delle immagini acquisite attraverso Sentinel-2 e riguardanti
