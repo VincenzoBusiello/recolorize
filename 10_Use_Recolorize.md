@@ -1,12 +1,15 @@
 # recolorize tra orchidee e telerilevamento
-Il pacchetto recolorize, ideato dal Hannah Weller, è uno strumento con il quale è possibile 
-creare delle mappe di colore utilizzando immagini di partenza utilizzando una combinazione
+Il pacchetto recolorize, ideato da Hannah Weller, è uno strumento con il quale è possibile 
+creare delle mappe di colore utilizzando immagini di partenza con una combinazione
 di procedure manuali, semi-automatiche e automatiche.
+
+
 L'obiettivo di tale file è mostrare come le funzioni contenute in questo pacchetto possano
 essere utilizzate anche con "soggetti" differenti rispetto a quelli utilizzati negli esempi 
 proposti da H. Weller dimostrando la loro versatilità. 
 Per questo motivo sono stati scelti 4 esempi provenienti dalla famiglia delle Orchidacee 
 e dai generi *Cattleya*, *Cymbidium*, *Miltoniopsis* e *Restrepia*. 
+
 
 E' stato testato anche nell'ambito del Telerilevamento applicando le sue funzioni alle immagini satellitari. 
 In questo caso sono state utilizzate delle immagini acquisite attraverso Sentinel-2 e riguardanti
