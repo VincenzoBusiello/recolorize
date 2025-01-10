@@ -128,3 +128,123 @@ final_rest <- editLayer(ref_rest, 2, operation = "fill", px_size = 4) #parametro
               png::writePNG(lay_rest[[i]], target = paste0("restlayer_", i, ".png"))
           }
 
+
+#### Utilizzo il pacchetto recolorize per applicare le sue funzioni alle immagini satellitari. 
+#### Le immagini sono state scaricate utilizzando il portale Copernicus Browser, 
+#### selezionando un'area del Kagatende Ranger Post pari a 197,72 Km^2.
+#### Più precisamente, sono state acquisite immagini del 02/01/2020, 18/09/2020, 15/02/2021 e 24/08/2021.
+#### Il motivo per cui sono state scelte queste date è perché la copertura di nuvole era inferiroe al 30%
+#### e i mesi sono stati selezionati in modo da poter apprezzare la copertura vegetale.
+
+
+# carico le immagini del Serenggeti National Park
+s1 <- system.file("extdata/seren_02012020.png", package = "recolorize")
+s2 <- system.file("extdata/seren_18092020.png", package = "recolorize")
+s3 <- system.file("extdata/seren_15022021.png", package = "recolorize")
+s4 <- system.file("extdata/seren_24082021.png", package = "recolorize")
+
+# Fase di refining e recluster mancante per similarità dei colori. 
+# L'immagine verrebbe completamente di un unico colore.
+# Vista la mancanza di pixel che non soddisfano i requisiti per il recluster 
+# sono stati clusterizzati tutti i pixel presenti.
+
+ # recolorize2() esegue le funzioni recolorize() e recluster() in modo consecutivo
+s1_rc <- recolorize2(s1, cutoff = 10, plotting = FALSE) #02/01/2020
+s2_rc <- recolorize2(s2, cutoff = 10, plotting = FALSE) #18/09/2020
+s3_rc <- recolorize2(s3, cutoff = 10, plotting = FALSE) #15/02/2021
+s4_rc <- recolorize2(s4, cutoff = 10, plotting = FALSE) #24/08/2021
+    
+# impostazione della schermata di visualizzazione
+
+
+
+          ##S1##
+
+  layout(matrix(1:8, nrow = 2, byrow = TRUE))
+  par(mar = c(0,0,2,0))
+
+  lay_s1 <- splitByColor(s1_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer che vengono confrontati con gli speculari binari
+
+  for (i in 1:length(lay_s1))
+    {
+        plotImageArray(lay_s1[[i]], main = i)
+    }
+
+          ### esportazione dei livelli di colore 
+
+
+        recolorize_to_png(s1_rc, filename = "seren1_recolored.png") # crea un file .png dell'immagine ricolorata
+
+        for (i in 1:length(lay_s1)) # salva i singoli layer binari in formato .png
+          {
+              png::writePNG(lay_s1[[i]], target = paste0("s1layer_", i, ".png"))
+          }
+
+
+
+          ##S2##
+  layout(matrix(1:6, nrow = 2, byrow = TRUE))
+  par(mar = c(0,0,2,0))
+
+  lay_s2 <- splitByColor(s2_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer che vengono confrontati con gli speculari binari
+
+  for (i in 1:length(lay_s2))
+    {
+        plotImageArray(lay_s2[[i]], main = i)
+    }
+
+
+          ### esportazione dei livelli di colore 
+
+
+        recolorize_to_png(s2_rc, filename = "seren2_recolored.png") # crea un file .png dell'immagine ricolorata
+
+        for (i in 1:length(lay_s2)) # salva i singoli layer binari in formato .png
+          {
+              png::writePNG(lay_s2[[i]], target = paste0("s2layer_", i, ".png"))
+          }
+
+##S3##
+  layout(matrix(1:6, nrow = 2, byrow = TRUE))
+  par(mar = c(0,0,2,0))
+
+  lay_s3 <- splitByColor(s3_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer che vengono confrontati con gli speculari binari
+
+  for (i in 1:length(lay_s3))
+    {
+        plotImageArray(lay_s3[[i]], main = i)
+    }
+
+
+          ### esportazione dei livelli di colore 
+
+
+        recolorize_to_png(s3_rc, filename = "seren3_recolored.png") # crea un file .png dell'immagine ricolorata
+
+        for (i in 1:length(lay_s3)) # salva i singoli layer binari in formato .png
+          {
+              png::writePNG(lay_s3[[i]], target = paste0("s3layer_", i, ".png"))
+          }
+
+##S4##
+  layout(matrix(1:8, nrow = 2, byrow = TRUE))
+  par(mar = c(0,0,2,0))
+
+  lay_s4 <- splitByColor(s4_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer che vengono confrontati con gli speculari binari
+
+  for (i in 1:length(lay_s4))
+    {
+        plotImageArray(lay_s4[[i]], main = i)
+    }
+
+
+          ### esportazione dei livelli di colore 
+
+
+        recolorize_to_png(s4_rc, filename = "seren4_recolored.png") # crea un file .png dell'immagine ricolorata
+
+        for (i in 1:length(lay_s4)) # salva i singoli layer binari in formato .png
+          {
+              png::writePNG(lay_s4[[i]], target = paste0("s4layer_", i, ".png"))
+          }
+
