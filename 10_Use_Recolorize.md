@@ -20,13 +20,10 @@ In questo caso sono state utilizzate delle immagini acquisite attraverso Sentine
 il Serengeti National Park(Tanzania), più precisamente un quadrante di 197,72 KM^2 vicino al 
 Kagatende Ranger Park. 
 
-![gennaio20](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_02012020.png?raw=true)
-
-![settembre20](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_18092020.png?raw=true)
-
-![febbraio21](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_15022021.png?raw=true)
-
-![agosto21](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_24082021.png?raw=true)
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren_02012020.png?raw=true" width="100px">
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren_18092020.png?raw=true" width="100px">
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren_15022021.png?raw=true" width="100px">
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren_24082021.png?raw=true" witsh="100px">
 
 
 Sono state scelte delle immagini che potessero mostrare i livelli di copertura 
