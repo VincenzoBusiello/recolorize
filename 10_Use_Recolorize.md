@@ -1,4 +1,5 @@
 # recolorize tra orchidee e telerilevamento
+***
 Il pacchetto recolorize, ideato da Hannah Weller, è uno strumento con il quale è possibile 
 creare delle mappe di colore utilizzando immagini di partenza con una combinazione
 di procedure manuali, semi-automatiche e automatiche.
@@ -12,8 +13,11 @@ e dai generi *Cattleya*, *Cymbidium*, *Miltoniopsis* e *Restrepia*.
 
 
 ![Cattleya](https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true)
+
 ![Cymbidium](https://github.com/VincenzoBusiello/recolorize/blob/main/cymbidium.png?raw=true)
+
 ![Miltoniopsis](https://github.com/VincenzoBusiello/recolorize/blob/main/miltoniopsis.png?raw=true)
+
 ![Restrepia](https://github.com/VincenzoBusiello/recolorize/blob/main/restrepia.png?raw=true)
 
 
@@ -23,8 +27,11 @@ il Serengeti National Park(Tanzania), più precisamente un quadrante di 197,72 K
 Kagatende Ranger Park. 
 
 ![gennaio20](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_02012020.png?raw=true)
+
 ![settembre20](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_18092020.png?raw=true)
+
 ![febbraio21](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_15022021.png?raw=true)
+
 ![agosto21](https://github.com/VincenzoBusiello/recolorize/blob/main/seren_24082021.png?raw=true)
 
 
@@ -35,16 +42,28 @@ Per poterle processare, le immagini sono state caricate all'interno del folder d
 anche ulteriori passaggi di cambio e carico delle directory oltre a possibile confusione. 
 Le diverse immagini hanno subito un processo di ricolorazione 
 in modo tale da semplificare le diverse sfumature presenti. 
-Ottenuta la mappa di colore utilizzando la funzione recolorize2(), 
+Ottenuta la mappa di colore utilizzando la funzione recolorize2(), es:
 
 ```R
-catt <- system.file("extdata/cattleya.png", package = "recolorize")
-cymb <- system.file("extdata/cymbidium.png", package = "recolorize")
-milt <- system.file("extdata/miltoniopsis.png", package = "recolorize")
-rest <- system.file("extdata/restrepia.png", package = "recolorize")
-
-### da cambiare
+catt_rc <- recolorize2(catt, cutoff = 45, plotting = FALSE)
 ```
+
 sono stati generati dei layer per ogni colore con la funzione splitByColor(). 
+
+```R
+lay_catt <- splitByColor(catt_rc, plot_method = "overlay")
+```
+
 Questi, in fine, sono stati esportati trasformandoli in file ".png". Con la stessa metodica sono state 
 processate sia le immagini delle Orchidacee che le immagini satellitari provenienti dal Serengeti National Park. 
+Qui di seguito verranno mostrate le immagini risultate dall'applicazione del codice presente nel file "**09_use_recolorize.R**". 
+
+![serengeti recolored](https://github.com/VincenzoBusiello/recolorize/blob/main/seren1_recolored.png?raw=true)
+
+![layer1]()
+
+![layer2]()
+
+![layer3]()
+
+![layer4]()
