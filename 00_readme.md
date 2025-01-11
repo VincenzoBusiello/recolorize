@@ -30,13 +30,13 @@ Per poterle processare, le immagini sono state caricate all'interno del folder d
 anche ulteriori passaggi di cambio e carico delle directory oltre a possibile confusione. 
 Le diverse immagini hanno subito poi un processo di ricolorazione 
 in modo tale da semplificare le diverse sfumature presenti. 
-Ottenuta la mappa di colore con la funzione recolorize2(), es:
+Ottenuta la mappa di colore con la funzione **recolorize2()**, es:
 
 ```R
 catt_rc <- recolorize2(catt, cutoff = 45, plotting = FALSE)
 ```
 
-sono stati generati dei layer per ogni colore con la funzione splitByColor(). 
+sono stati generati dei layer per ogni colore con la funzione **splitByColor()**. 
 
 ```R
 lay_catt <- splitByColor(catt_rc, plot_method = "overlay")
@@ -70,6 +70,6 @@ Questi, in fine, sono stati esportati trasformandoli in file ".png" con la funzi
 ```
 
 Con la stessa metodica sono state processate sia le immagini delle Orchidacee che le immagini satellitari provenienti dal Serengeti National Park. 
-Qui di seguito verranno mostrate le immagini risultanti dall'applicazione del codice presente nel file "**09_use_recolorize.R**". 
+Qui di seguito verranno mostrate le immagini risultanti dall'applicazione del codice presente nel file "**08_using_recolorize.R**". 
 
 <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren1_recolored.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_1.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_2.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_3.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_4.png?raw=true" width="150px">
