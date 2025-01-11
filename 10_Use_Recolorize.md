@@ -12,7 +12,7 @@ Per questo motivo sono stati scelti 4 esempi provenienti dalla famiglia delle Or
 e dai generi *Cattleya*, *Cymbidium*, *Miltoniopsis* e *Restrepia*. 
 
 
-![Cattleya](https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true)
+![Cattleya](https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true =120x)
 
 ![Cymbidium](https://github.com/VincenzoBusiello/recolorize/blob/main/cymbidium.png?raw=true)
 
