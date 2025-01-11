@@ -72,8 +72,4 @@ Questi, in fine, sono stati esportati trasformandoli in file ".png" con la funzi
 Con la stessa metodica sono state processate sia le immagini delle Orchidacee che le immagini satellitari provenienti dal Serengeti National Park. 
 Qui di seguito verranno mostrate le immagini risultanti dall'applicazione del codice presente nel file "**09_use_recolorize.R**". 
 
-<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren1_recolored.png?raw=true" width="150px">
-<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_1.png?raw=true" width="150px">
-<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_2.png?raw=true" width="150px">
-<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_3.png?raw=true" width="150px">
-<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_4.png?raw=true" width="150px">
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren1_recolored.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_1.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_2.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_3.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_4.png?raw=true" width="150px">
