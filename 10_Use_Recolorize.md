@@ -11,13 +11,13 @@ proposti da H. Weller, accentuando la versatilità del pacchetto.
 Per questo motivo sono stati scelti 4 esempi provenienti dalla famiglia delle Orchidacee 
 e dai generi *Cattleya*, *Cymbidium*, *Miltoniopsis* e *Restrepia*. 
 
-<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true" width="50px">
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true" width="100px">
 
-![Cymbidium](https://github.com/VincenzoBusiello/recolorize/blob/main/cymbidium.png?raw=true)
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/cymbidium.png?raw=true" width="100px">
 
-![Miltoniopsis](https://github.com/VincenzoBusiello/recolorize/blob/main/miltoniopsis.png?raw=true)
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/miltoniopsis.png?raw=true" width="100px">
 
-![Restrepia](https://github.com/VincenzoBusiello/recolorize/blob/main/restrepia.png?raw=true)
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/restrepia.png?raw=true" width="100px">
 
 
 E' stato testato anche nell'ambito del Telerilevamento, applicando le sue funzioni alle immagini satellitari. 
