@@ -11,8 +11,7 @@ proposti da H. Weller, accentuando la versatilità del pacchetto.
 Per questo motivo sono stati scelti 4 esempi provenienti dalla famiglia delle Orchidacee 
 e dai generi *Cattleya*, *Cymbidium*, *Miltoniopsis* e *Restrepia*. 
 
-
-![Cattleya](https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true =120x)
+<img url="https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true" width="50px">
 
 ![Cymbidium](https://github.com/VincenzoBusiello/recolorize/blob/main/cymbidium.png?raw=true)
 
