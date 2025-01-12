@@ -20,7 +20,7 @@ In questo caso sono state utilizzate delle immagini acquisite attraverso Sentine
 il ***Serengeti National Park*** (Tanzania), più precisamente un quadrante di 197,72 KM^2 vicino al 
 Kagatende Ranger Park. 
 
-<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren_02012020.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren_18092020.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren_15022021.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren_24082021.png?raw=true" width="150px">
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren_02012020.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren_18092020.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren_15022021.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren_24082021.png?raw=true" width="150px">
 
 
 Sono state scelte delle immagini che potessero mostrare i livelli di copertura 
@@ -72,4 +72,4 @@ Questi, in fine, sono stati esportati trasformandoli in file ".png" con la funzi
 Con la stessa metodica sono state processate sia le immagini delle Orchidacee che le immagini satellitari provenienti dal Serengeti National Park. 
 Qui di seguito verranno mostrate le immagini risultanti dall'applicazione del codice presente nel file "**08_using_recolorize.R**". 
 
-<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/seren1_recolored.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_1.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_2.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_3.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/s1layer_4.png?raw=true" width="150px">
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren1_recolored.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_1.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_2.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_3.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_4.png?raw=true" width="150px">
