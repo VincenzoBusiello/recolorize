@@ -12,7 +12,7 @@ Per questo motivo sono stati scelti 4 esempi provenienti dalla famiglia delle Or
 e dai generi ***Cattleya***, ***Cymbidium***, ***Miltoniopsis*** e ***Restrepia***. 
 
 
-<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/cattleya.png?raw=true" width="100px">  <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/cymbidium.png?raw=true" width="100px">  <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/miltoniopsis.png?raw=true" width="100px">  <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/restrepia.png?raw=true" width="100px">
+<img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/cattleya.png?raw=true">  <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/cymbidium.png?raw=true" width="100px">  <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/miltoniopsis.png?raw=true" width="100px">  <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/restrepia.png?raw=true" width="100px">
 
 
 E' stato testato anche nell'ambito del Telerilevamento, applicando le sue funzioni alle immagini satellitari. 
