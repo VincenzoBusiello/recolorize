@@ -88,20 +88,20 @@ a combination of manual, semi-automatic and automatic procedures.
 The aim of this file is to show how the functions of this package can also be used with 
 different subjects than those already used in the H. Weller examples, emphasing the versatility
 of this package.
-For this reason, i chose 4 examples from Orchidacee family and from the genera
+For this reason, I chose 4 examples from Orchidacee family and from the genera
 ***Cattleya***, ***Cymbidium***, ***Miltoniopsis*** e ***Restrepia***.
 
 
 <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/cattleya.png?raw=true" width="100px">  <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/cymbidium.png?raw=true" width="100px">  <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/miltoniopsis.png?raw=true" width="100px">  <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/restrepia.png?raw=true" width="100px">
 
 
-I tested the package also for remote sensing, using its functions on satellite images. 
+In addition, I tested the package for remote sensing, using its functions on satellite images. 
 In this case, the images were acquired by Sentinel-2 and they represent an area of 1972.72 KM^2
 near by Kagatende Ranger Park, in ***Serengeti National Park*** (Tanzania). 
 
 <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren_02012020.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren_18092020.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren_15022021.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren_24082021.png?raw=true" width="150px">
 
-The images show the levels of vegetation cover (presence/absence) to have colour differences 
+Images were selected to display levels of vegetation cover (presence/absence) in a way that highlighted significant colour differences
 that can be suitable for the objective of the work.
 The images were placed in the package folder to avoid further steps and confusion.
 Than they were recolored simplifying the different color shades. 
