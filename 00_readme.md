@@ -1,5 +1,7 @@
 # recolorize tra orchidee e telerilevamento
 ***
+
+
 Il pacchetto recolorize, ideato da Hannah Weller, è uno strumento con il quale è possibile 
 creare delle mappe di colore utilizzando immagini di partenza con una combinazione
 di procedure manuali, semi-automatiche e automatiche.
@@ -73,3 +75,9 @@ Con la stessa metodica sono state processate sia le immagini delle Orchidacee ch
 Qui di seguito verranno mostrate le immagini risultanti dall'applicazione del codice presente nel file "**08_using_recolorize.R**". 
 
 <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren1_recolored.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_1.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_2.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_3.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_4.png?raw=true" width="150px">
+
+
+***
+
+##recolorize between orchids and remote sensing
+***
