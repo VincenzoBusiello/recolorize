@@ -28,6 +28,12 @@ Than they were recolored simplifying the different color shades.
 The color map was obtained using **recolorize2()** function, ex:
 
 ```R
+# uploading image of Cattleya 
+catt <- system.file("extdata/cattleya.png", package = "recolorize")
+```
+
+
+```R
 catt_rc <- recolorize2(catt, cutoff = 45, plotting = FALSE)
 ```
 
