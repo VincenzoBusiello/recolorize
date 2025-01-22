@@ -49,7 +49,7 @@ Setting of layout mode for a correct printing:
  layout(matrix(1:8, nrow = 2, byrow = TRUE))
   par(mar = c(0,0,2,0))
 
-  lay_s1 <- splitByColor(s1_rc, plot_method = "overlay") # divisione della mappa di colore in singoli layer che vengono confrontati con gli speculari binari
+  lay_s1 <- splitByColor(s1_rc, plot_method = "overlay") # splitting the color map into individual layers campared with binary specular ones
 
   for (i in 1:length(lay_s1))
     {
@@ -60,15 +60,15 @@ Setting of layout mode for a correct printing:
 
 ```R
 
-        recolorize_to_png(s1_rc, filename = "seren1_recolored.png") # crea un file .png dell'immagine ricolorata
+        recolorize_to_png(s1_rc, filename = "seren1_recolored.png") # creating file .png of recolored image
 
-        for (i in 1:length(lay_s1)) # salva i singoli layer binari in formato .png
+        for (i in 1:length(lay_s1)) # saving single binary layers as .png files
           {
               png::writePNG(lay_s1[[i]], target = paste0("s1layer_", i, ".png"))
           }
 
 ```
 
-Satellite images from Serengeti National Park were processed in the same way and i obtained the images below:
+Satellite images from Serengeti National Park were processed in the same way and I obtained the images below:
 
 <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/seren1_recolored.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_1.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_2.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_3.png?raw=true" width="150px"> <img src="https://github.com/VincenzoBusiello/recolorize/blob/main/images/serengeti/s1layer_4.png?raw=true" width="150px">
